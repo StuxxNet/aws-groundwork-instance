@@ -4,7 +4,7 @@ provider "aws" {
 }
 
 module "aws_groundwork_vpc" {
-  source = "git::https://github.com/StuxxNet/iac-aws-groundwork.git?ref=v1.0.0"
+  source = "git::https://github.com/StuxxNet/iac-aws-groundwork.git?ref=v1.0.1"
 }
 
 output "module_vpc_id" {
